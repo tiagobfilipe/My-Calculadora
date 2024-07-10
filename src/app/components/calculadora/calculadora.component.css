@@ -1,0 +1,10 @@
+.card-header{background-color: deepskyblue;}
+.card-body{background-color: royalblue;}
+
+.btn{
+  background-color: white;
+  height: 50px;
+}
+.btn:hover{
+  color: black;
+}

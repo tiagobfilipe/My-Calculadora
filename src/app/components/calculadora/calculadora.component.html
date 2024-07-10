@@ -1,0 +1,36 @@
+<div class="row">
+<div class="col-2" style="margin: 0 auto; float: false;">
+  <div class="card">
+    <div class="card-header">
+      <h3 class="card-title" id="screen" style="text-align: right; height: 33px;">{{this.display}}</h3>
+      <h6 class="card-subtitle mb-2 text-body-secondary mb-3" style="height: 19px;">{{this.theSinal}}</h6>
+    </div>
+    <div class="card-body">
+
+      <div class="row mb-3">
+        <button class="btn btn-outline-primary col-3" (click)="adicionarSinal('+')">+</button>
+        <button class="btn btn-outline-primary col-3" (click)="adicionarSinal('-')">-</button>
+        <button class="btn btn-outline-primary col-3" (click)="adicionarSinal('/')">/</button>
+        <button class="btn btn-outline-primary col-3" (click)="adicionarSinal('*')">*</button>
+      </div>
+      <div class="row">
+        <button class="btn btn-outline-secondary col-4" (click)="adicionarNumero('1')">1</button>
+        <button class="btn btn-outline-secondary col-4" (click)="adicionarNumero('2')">2</button>
+        <button class="btn btn-outline-secondary col-4" (click)="adicionarNumero('3')">3</button>
+        <button class="btn btn-outline-secondary col-4" (click)="adicionarNumero('4')">4</button>
+        <button class="btn btn-outline-secondary col-4" (click)="adicionarNumero('5')">5</button>
+        <button class="btn btn-outline-secondary col-4" (click)="adicionarNumero('6')">6</button>
+        <button class="btn btn-outline-secondary col-4" (click)="adicionarNumero('7')">7</button>
+        <button class="btn btn-outline-secondary col-4" (click)="adicionarNumero('8')">8</button>
+        <button class="btn btn-outline-secondary col-4" (click)="adicionarNumero('9')">9</button>
+        <button class="btn btn-outline-secondary col-4" (click)="adicionarNumero('.')">.</button>
+        <button class="btn btn-outline-secondary col-4" (click)="adicionarNumero('0')">0</button>
+        <button class="btn btn-outline-primary col-4" (click)="calcular()">=</button>
+      </div>
+      <div class="row">
+        <button class="btn btn-outline-primary col-12 mt-3" (click)="limpar()">C</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
