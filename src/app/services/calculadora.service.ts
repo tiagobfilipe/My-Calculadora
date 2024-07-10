@@ -9,7 +9,6 @@ export class CalculadoraService {
   }
 
   calcular(numero1: number, numero2: number, sinal : string) : number{
-    console.log(numero1);
     switch (sinal){
       case "+":
         return numero1 + numero2;
